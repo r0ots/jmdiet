@@ -1633,13 +1633,13 @@
 }
 
 .parcours-detail {
-  color: var(--dl-color-gray-700);
+  color: var(--dl-color-gray-black);
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
 }
 
 .parcours-description {
-  color: var(--dl-color-gray-700);
+  color: var(--dl-color-gray-black);
   font-size: 0.95rem;
   line-height: 1.5;
   margin-top: auto;
