@@ -186,6 +186,10 @@ details:hover {
   transform: rotate(30deg) translateX(100%);
 }
 
+.button-main.no-shine::after {
+  display: none;
+}
+
 /* White button variant */
 .button-white {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -3092,19 +3096,19 @@ details[open] summary::after {
 }
  
 .home-date3 {
-  color: #000000;
+  color: #3D2C4E;
   line-height: 24px;
 }
  
 .home-quick-description2 {
-  color: rgb(0, 0, 0);
+  color: #3D2C4E;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
  
 .home-text97 {
-  color: #000000;
+  color: #3D2C4E;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -3157,19 +3161,19 @@ details[open] summary::after {
 }
  
 .home-date4 {
-  color: #000000;
+  color: #3D2C4E;
   line-height: 24px;
 }
  
 .home-quick-description3 {
-  color: rgb(0, 0, 0);
+  color: #3D2C4E;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
  
 .home-text98 {
-  color: #000000;
+  color: #3D2C4E;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -3253,7 +3257,7 @@ details[open] summary::after {
   flex-direction: row;
   padding-bottom: var(--dl-layout-space-fiveunits);
   justify-content: space-between;
-  background-color: #000000;
+  background-color: #3D2C4E;
 }
  
 .home-left2 {

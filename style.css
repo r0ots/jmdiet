@@ -7,7 +7,7 @@
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
-  --dl-color-gray-black: #2D2D2D;
+  --dl-color-gray-black: #3D2C4E;
   --dl-color-gray-white: #FFFFFF;
   --dl-color-primary-main: #E07850;
   --dl-color-primary-100: #E07850;
@@ -135,7 +135,7 @@
 }
  
 .button-white {
-  color: #000000;
+  color: #3D2C4E;
   background-color: #ffffff;
 }
  
