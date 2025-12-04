@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 .features-wrapper {
   display: contents;
 }
@@ -789,7 +793,7 @@
 .home-container1 {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow-x: hidden;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -1389,7 +1393,7 @@
   padding-right: 0;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: -25px;
+  margin-right: -50px;
 }
  
 .home-image22 {
@@ -1643,6 +1647,15 @@
   padding-top: 0.5rem;
 }
 
+@media (max-width: 1200px) {
+  .home-content11 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .home-grid2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
 @media (max-width: 991px) {
   .parcours-grid {
     grid-template-columns: 1fr;
@@ -1657,6 +1670,9 @@
     grid-template-columns: 1fr !important;
     max-width: 400px;
     margin: 0 auto;
+  }
+  .home-grid2 {
+    grid-template-columns: 1fr !important;
   }
   .features-item {
     border-right: none;
@@ -1674,9 +1690,6 @@
   }
   .features-item .features-text {
     text-align: center !important;
-  }
-  .home-grid2 {
-    grid-template-columns: 1fr !important;
   }
   .testimonials-grid {
     grid-template-columns: 1fr !important;
